@@ -33,4 +33,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 #For production Build,I would like to suggest following modules to be used in application.
 	https://github.com/Angular-RU/angular-cli-webpack
     https://github.com/manfredsteyer/ngx-build-plus
-	
+
+#Follow the steps to run the local
+
+1. Run npm install to install node dependencies.
+2. After install node modules , Run "ng serve" to run the application.
+3. once application compiled successfukky, open localhost url "http://localhost:4200/home"
