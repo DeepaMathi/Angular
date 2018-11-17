@@ -1,0 +1,22 @@
+<h2>My Library Application</h2>
+
+<p><input type="button" value="Add Book" (click)="addBook()" /></p>
+
+<table class="bookList">
+  <tr class="tbl_header">
+    <td>Book Name</td>
+    <td>Author Name</td>
+    <td>Return Date</td>
+    <td>Borrow Date</td>
+    <td>Edit</td>
+    <td>Delete</td>
+  </tr>
+  <tr *ngFor="let book of bookData">
+    <td><i class="fa fa-book"></i>{{book.name}}</td>
+    <td><i class="fa fa-user"></i>{{book.Author}}</td>
+    <td>{{book.returnDate}}</td>
+    <td>{{book.borrowDate}}</td>
+    <td><span (click)="editBook(book)"><i class="fa fa-edit"></i></span></td>
+    <td><span (click)="deleteBook(book)"><i class="fa fa-trash"></i></span></td>
+  </tr>
+</table>

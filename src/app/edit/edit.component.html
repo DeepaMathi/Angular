@@ -1,0 +1,12 @@
+<div class="book_wrapper">
+<h2>{{pageName}} Book</h2>
+
+<p><label>Book Name :</label><input #bookName  type="text" [value]="bookNameVal"/></p>
+<p><label>Author Name :</label><input #AuthorName type="text" [value]="AuthorNameVal"/></p>
+<p><label>Return Date :</label><input #returnDate type="date" [value]="returnDateVal"/></p>
+<p><label>Borrow Date :</label><input #borrowDate type="date" [value]="borrowDateVal"/></p>
+
+<p class="btn_wrapper"><span><input type="button" value={{btnName}} (click)="edit(bookName.value,AuthorName.value,returnDate.value,borrowDate.value)"/></span><span><input type="button" value="Back" (click)="redirectHome()"/></span></p>
+
+
+</div>

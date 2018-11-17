@@ -1,0 +1,27 @@
+.bookList i{
+    font-size: 16px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+input[type='button']{
+    background: #aef3ec;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+}
+.bookList{
+    border-collapse: collapse;
+    width: 50%;
+}
+.bookList span{
+    display: block;
+    text-align: center;
+} 
+.tbl_header td{
+    font-weight: bold;
+}
+.bookList td{
+    border: 1px solid #454545;
+    padding: 5px 5px 5px 10px;
+}
